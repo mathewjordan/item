@@ -6,7 +6,7 @@ import { getLabelAsString } from "@/lib/label";
 const Label: React.FC = () => {
   const { label } = useItemContext();
 
-  return <>{getLabelAsString(label as InternationalString)}</>;
+  return <span item-label="">{getLabelAsString(label as InternationalString)}</span>;
 };
 
 export default Label;

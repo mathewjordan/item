@@ -33,7 +33,7 @@ const Item: ItemComposition & React.FC<ItemProps> = ({
   const { label, thumbnail, summary } = item;
 
   return (
-    <div onClick={() => callback(item.id)}>
+    <div item-root onClick={() => callback(item.id)}>
       <ItemProvider
         initialState={{
           label: label as InternationalString,

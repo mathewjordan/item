@@ -1,13 +1,13 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://127.0.0.1:8080/fixtures/palouse.json",
+  "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse.json",
   "type": "Manifest",
   "label": {
     "none": ["Palouse fields from Kamiak Butte"]
   },
   "items": [
     {
-      "id": "http://127.0.0.1:8080/fixtures/palouse/canvas/1",
+      "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/1",
       "type": "Canvas",
       "label": {
         "none": ["Early Summer"]
@@ -19,7 +19,7 @@
       "width": 300,
       "thumbnail": [
         {
-          "id": "http://127.0.0.1:8080/fixtures/palouse-1.jpg",
+          "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse-1.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "height": 300,
@@ -28,28 +28,28 @@
       ],
       "items": [
         {
-          "id": "http://127.0.0.1:8080/fixtures/palouse/canvas/1/page",
+          "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/1/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://127.0.0.1:8080/fixtures/palouse/canvas/1/annotation",
+              "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/1/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://127.0.0.1:8080/fixtures/palouse-1.jpg",
+                "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse-1.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 300,
                 "width": 300
               },
-              "target": "http://127.0.0.1:8080/fixtures/palouse/canvas/1"
+              "target": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/1"
             }
           ]
         }
       ]
     },
     {
-      "id": "http://127.0.0.1:8080/fixtures/palouse/canvas/2",
+      "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/2",
       "type": "Canvas",
       "label": {
         "none": ["Fall"]
@@ -61,7 +61,7 @@
       "width": 300,
       "thumbnail": [
         {
-          "id": "http://127.0.0.1:8080/fixtures/palouse-2.jpg",
+          "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse-2.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "height": 300,
@@ -70,21 +70,21 @@
       ],
       "items": [
         {
-          "id": "http://127.0.0.1:8080/fixtures/palouse/canvas/2/page",
+          "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/2/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://127.0.0.1:8080/fixtures/palouse/canvas/2/annotation",
+              "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/2/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://127.0.0.1:8080/fixtures/palouse-2.jpg",
+                "id": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse-2.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 300,
                 "width": 300
               },
-              "target": "http://127.0.0.1:8080/fixtures/palouse/canvas/2"
+              "target": "https://raw.githubusercontent.com/mathewjordan/item/main/public/fixtures/palouse/canvas/2"
             }
           ]
         }

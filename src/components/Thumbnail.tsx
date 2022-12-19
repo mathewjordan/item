@@ -13,7 +13,7 @@ const Thumbnail: React.FC = () => {
     if (thumbnail && thumbnail.length > 0) setSrc(thumbnail[0].id as string);
   }, [thumbnail]);
 
-  return <img src={src} />;
+  return <div item-thumbnail=""><img src={src} /></div>;
 };
 
 export default Thumbnail;

@@ -1,8 +1,10 @@
 {
   "name": "@mathewjordan/item",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run clean && node build.js&& tsc --emitDeclarationOnly --outDir dist",
     "clean": "rimraf dist",

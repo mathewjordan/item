@@ -6,7 +6,7 @@ import { getLabelAsString } from "@/lib/label";
 const Summary: React.FC = () => {
   const { summary } = useItemContext();
 
-  return <span>{getLabelAsString(summary as InternationalString)}</span>;
+  return <span item-summary="">{getLabelAsString(summary as InternationalString)}</span>;
 };
 
 export default Summary;

@@ -9,7 +9,7 @@ const shared = {
   logLevel: "info",
   minify: true,
   sourcemap: false,
-};
+}; 
 
 build({
   ...shared,

@@ -11,13 +11,13 @@ npm install @mathewjordan/item
 ## Usage
 
 ### Simple Method
-```
+```tsx
 <Item item={canvas} />
 ```
 
 
 ### Composable Method (w/ children)
-```
+```tsx
 <Item.Root item={canvas} >
   <Item.Thumbnail />
   <Item.Label />
